@@ -531,7 +531,7 @@ int main(int argc, char *argv[])
     perror("railway_initsystem");
     exit(EXIT_FAILURE);
   }
-  if (railway_openlinks_udp(railway,"node%02i","/dev/ttyS0")<0) {
+  if (railway_openlinks(railway,"railPi%i","10000");<0) {
     railway_donesystem(railway);
     exit(EXIT_FAILURE);
   }

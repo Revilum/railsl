@@ -1162,6 +1162,10 @@ struct railway_system *railway_initsystem(struct railway_hardware *hardware)
 //					  struct nodelink *link) {
 //};
 
+// dummy function definition required for the simulation to compile
+extern int railway_openlinks(struct railway_system *railway,
+						  char *hostformat, char *device);
+
 //----------------------------------------------------------------------------
 //! see s. hoermann diploma thesis
 //!
