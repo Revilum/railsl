@@ -25,7 +25,8 @@ class RailSLProcessorProvider implements IProcessorProvider {
         #[
             de.cau.cs.kieler.railsl.processor.RailwayAPIProcessor,
             de.cau.cs.kieler.railsl.processor.ScadeSimulationProcessor,
-            de.cau.cs.kieler.railsl.compilation.RailSLTransformation
+            de.cau.cs.kieler.railsl.compilation.RailSLTransformation,
+            de.cau.cs.kieler.railsl.compilation.RailSLToJSON
         ]
     }
     

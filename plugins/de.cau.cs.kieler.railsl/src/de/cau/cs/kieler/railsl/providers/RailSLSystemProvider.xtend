@@ -29,7 +29,8 @@ class RailSLSystemProvider implements ISystemProvider {
         #[
             "system/de.cau.cs.kieler.railsl.netlist.c.kico",
             "system/de.cau.cs.kieler.railsl.netlist.deploy.kico",
-            "system/de.cau.cs.kieler.railsl.netlist.sim.scade.kico"
+            "system/de.cau.cs.kieler.railsl.netlist.sim.scade.kico",
+            "system/de.cau.cs.kieler.railsl.json.kico"
         ]
     }
     
